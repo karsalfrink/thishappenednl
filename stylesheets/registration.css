@@ -1,0 +1,33 @@
+/*
+@import url('screen.css');
+body {
+	
+	background-image: url('../images/baseline-grid.png');
+}
+div#canvas {
+	width: 500px;
+	margin: 0 auto;
+	padding: 21px 0;
+}
+div.header {
+	display: none;
+}
+a#lang-en, a#lang-nl {
+	text-decoration: underline !important;
+	color: #000 !important;
+}
+a#lang-en:hover, a#lang-nl:hover {
+	text-decoration: none !important;
+	background: #000 !important;
+	color: #fff !important;
+}
+input.rect {
+	border: 1px solid #333;
+	margin: 0;
+	padding: 0;
+	height: 19px;
+}
+tr {
+	line-height: 42px;
+}
+*/

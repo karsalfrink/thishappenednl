@@ -1,0 +1,144 @@
+@import url('http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css');
+
+hr {
+	display: none;
+}
+body { 
+	font-size: 14px; 
+	font-family: Georgia, serif;
+	background-color: #fff;
+/*	background-image: url('../images/baseline-grid.png');*/
+	margin: 0;
+	padding: 0;
+	color: #000; 
+} 
+p, ul, ol { 
+	font-size: 14px;
+	line-height: 21px;
+	margin: 0 0 21px 0; 
+}
+h1 { 
+	font-size: 24px;
+	line-height: 42px;
+	margin-top: 21px; 
+	margin-bottom: 0em; 
+}
+h2 { 
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 21px; 
+	margin-bottom: 0em; 
+}
+h3 { 
+	font-size: 14px;
+	line-height: 21px; 
+	margin-top: 21px; 
+	margin-bottom: 0em; 
+}
+div#container {
+	width: 500px;
+	margin: 0 auto;
+	padding: 21px 0 0 0;
+	overflow: auto;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+a {
+	text-decoration: underline;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+}
+
+/*
+img.border {
+	border: 10.5px solid #fff;
+}
+*/
+div#announcement {
+	padding: 21px;
+	margin: 0 0 21px 0;
+	background: #000;
+	color: #fff;
+	overflow: hidden;
+/*	width: 100%;*/
+}
+div#announcement a {
+	text-decoration: underline;
+	color: #fff;
+}
+div#announcement a:hover {
+	text-decoration: none;
+	background: #fff;
+	color: #000;
+}
+div#announcement #last {
+	margin-bottom: 0;
+}
+ul li {
+	list-style-type: square;	
+}
+span#flickrcom, span#vimeocom, span#upcomingorg, span#twittercom {
+	padding-left: 17px;
+}
+span#flickrcom {
+	background: url('../images/flickrcom.png') no-repeat center left;
+}
+span#vimeocom {
+	background: url('../images/vimeocom.png') no-repeat center left;
+}
+span#upcomingorg {
+	background: url('../images/upcomingorg.png') no-repeat center left;
+}
+span#twittercom {
+	background: url('../images/twittercom.png') no-repeat center left;
+}
+div#announcement img {
+	display: block;
+	padding: 5px 0; /* because the image is 300 to 200 pixels */
+	margin-bottom: 21px;
+}
+acronym, abbr {
+	border-bottom: 1px dotted;
+}
+div#sponsors {
+	margin: -1px 0 0 0;
+	border-top: 1px dashed #fff;
+	padding: 21px 0 0 0;
+	overflow: hidden;
+}
+img.sponsor-logo {
+	margin: 0 20px 21px 0;
+/*	margin: 0 10px 0 0 !important;*/
+/*	padding: 0 0 0 0 !important;*/
+/*	display: block;*/
+	float: left;
+/*	width: 224px;
+	height: 63px;
+*/
+}
+img.last {
+	margin-right: 0 !important;
+}
+div#buxton {
+	margin: 20px 0 0 0;
+	border-top: 1px dashed #fff;
+	padding: 21px 0 0 0;
+	overflow: hidden;
+}
+div#buxton img {
+	margin: 0 10px 21px 0 !important;
+	padding: 5px 0 5px 0 !important;
+	display: block;
+/*	float: left;*/
+}
+div#buxton p.last {
+	margin-bottom: 0;
+}
